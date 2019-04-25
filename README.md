@@ -11,6 +11,6 @@ cryptocurrency-dashboard is a dashboard that charts data from coindesk's BPI (Bi
 Bitcoin's price index is charted and the user is able to see a time-series graph in whichever times period they specify. All major currencies are available for viewing. Furthermore, the data is also dynamically populated in a data table using JQuery and adapts to whichever query the user chooses.
 
 ## Notable methodology
-* Async/Await API Call: “Async” keyword directs JavaScript to automatically wrap that value in a resolved promise. Makes JavaScript wait until that promise settles and returns its result.
+* `Async/Await` API Call: “Async” keyword directs JavaScript to automatically wrap that value in a resolved promise. Makes JavaScript wait until that promise settles and returns its result.
 * `Object.keys`: Method returns an array of a given object's own property names.
 * `Object.values`: Method returns an array of a given object's values.
