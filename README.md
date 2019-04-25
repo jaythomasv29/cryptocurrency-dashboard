@@ -12,5 +12,5 @@ Bitcoin's price index is charted and the user is able to see a time-series graph
 
 ## Notable methodology
 * Async/Await API Call: “Async” keyword directs JavaScript to automatically wrap that value in a resolved promise. Makes JavaScript wait until that promise settles and returns its result.
-* 'Object.keys': Method returns an array of a given object's own property names.
-* 'Object.values': Method returns an array of a given object's values.
+* `Object.keys`: Method returns an array of a given object's own property names.
+* `Object.values`: Method returns an array of a given object's values.
