@@ -1,5 +1,5 @@
 # cryptocurrency-dashboard
-frontend cryptocurrency dashboard using html, css, javascript, jquery, ejs, and d3/c3 graphing
+A front-end cryptocurrency dashboard using html, css, javascript, jquery, and d3/c3.js data visualization.
 ## ABOUT THE APP
 cryptocurrency-dashboard is a dashboard that charts data from coindesk's BPI (Bitcoin Price Index) data. The front-end is accomplished by using the following:
 * Bootstrap (CSS framework)
