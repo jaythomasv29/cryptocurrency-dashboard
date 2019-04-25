@@ -8,14 +8,33 @@ getData();
 async function getData(){
     const response = await fetch(url);
     const result = await response.json();
+    console.log(result)
     // Object.values to get prices from JSON
     const prices = Object.values(result.bpi);
     // Object.keys to get keys from JSON
-    const dates = Object.keys(result.bpi)
-    console.log(dates)
-    console.log(prices)
+    let dates = Object.keys(result.bpi)
+    console.log(dates);
+    console.log(prices);
+    console.log(dates.length);
+    //START table using jQuery
+        //dates appended onto DOM
+    dates.forEach(element => {
+        let th = $('<th>');
+        th.text(element);
+        $('#dates').append(th);
+    });
+    prices.forEach(element => {
+        let td = $('<td>');
+        td.text(element);
+        $('#prices').append(td);
+    })
+
     chartData([$currency, ...prices], ['x', ...dates]);
+    // function loadTable(dates, prices){
+        //iterate over dates array
+    // }
 }
+
 
 function chartData(prices, dates){
     var chart = c3.generate({
